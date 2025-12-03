@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <LangVersion>14</LangVersion>
+        <Authors>Josué Clément</Authors>
+        <Copyright>Copyright © 2025 Josué Clément</Copyright>
+        <PackageId>PhosphorIconsWpf</PackageId>
+        <Title>Phosphor Icons for WPF - 1000+ Beautiful Vector Icons</Title>
+        <Version>1.0.0</Version>
+        <Description>A comprehensive WPF library providing 1,000+ beautiful, scalable vector icons from Phosphor Icons. Features 5 visual styles (bold, fill, light, regular, thin), easy XAML integration with markup extensions, and embedded SVG resources. Perfect for building modern cross-platform applications with consistent, professional iconography.</Description>
+        <PackageTags>wpf;icons;phosphor;phosphor-icons;vector;svg;xaml;ui;cross-platform;markup-extension;material-icons;fluent-icons;icon-library</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/josueclement/PhosphorIconsWpf</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/josueclement/PhosphorIconsWpf</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <IncludeSymbols>True</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Icons\**\*.svg" />
+    </ItemGroup>
+
+</Project>
