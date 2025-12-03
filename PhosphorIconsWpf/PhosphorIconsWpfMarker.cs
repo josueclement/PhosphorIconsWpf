@@ -1,0 +1,3 @@
+﻿namespace PhosphorIconsWpf;
+
+internal interface IPhosphorIconsWpfMarker;
