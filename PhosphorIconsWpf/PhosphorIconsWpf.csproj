@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Library</OutputType>
         <UseWpf>True</UseWpf>
-        <TargetFrameworks>net472;net6.0-windows</TargetFrameworks>
+        <TargetFrameworks>net472;net8.0-windows</TargetFrameworks>
         <Nullable>enable</Nullable>
         <LangVersion>14</LangVersion>
         <Authors>Josué Clément</Authors>
