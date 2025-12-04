@@ -36,33 +36,15 @@
                     <Image.Source>
                         <DrawingImage>
                             <DrawingImage.Drawing>
-                                <GeometryDrawing Geometry="{piw:IconGeometry Icon=file, IconType=bold}" Brush="Black" />
+                                <GeometryDrawing Geometry="{piw:IconGeometry Icon=file, IconType=thin}" Brush="Black" />
                             </DrawingImage.Drawing>
                         </DrawingImage>
                     </Image.Source>
                 </Image>
-                <TextBlock Grid.Row="1" Text="bold" Margin="10" HorizontalAlignment="Center" />
+                <TextBlock Grid.Row="1" Text="thin" Margin="10" HorizontalAlignment="Center" />
             </Grid>
             
             <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Image Grid.Row="0"
-                       Width="64" Height="64">
-                    <Image.Source>
-                        <DrawingImage>
-                            <DrawingImage.Drawing>
-                                <GeometryDrawing Geometry="{piw:IconGeometry Icon=file, IconType=fill}" Brush="Black" />
-                            </DrawingImage.Drawing>
-                        </DrawingImage>
-                    </Image.Source>
-                </Image>
-                <TextBlock Grid.Row="1" Text="fill" Margin="10" HorizontalAlignment="Center" />
-            </Grid>
-            
-            <Grid Grid.Column="2">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
@@ -80,7 +62,7 @@
                 <TextBlock Grid.Row="1" Text="light" Margin="10" HorizontalAlignment="Center" />
             </Grid>
             
-            <Grid Grid.Column="3">
+            <Grid Grid.Column="2">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
@@ -98,6 +80,24 @@
                 <TextBlock Grid.Row="1" Text="regular" Margin="10" HorizontalAlignment="Center" />
             </Grid>
             
+            <Grid Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0"
+                       Width="64" Height="64">
+                    <Image.Source>
+                        <DrawingImage>
+                            <DrawingImage.Drawing>
+                                <GeometryDrawing Geometry="{piw:IconGeometry Icon=file, IconType=bold}" Brush="Black" />
+                            </DrawingImage.Drawing>
+                        </DrawingImage>
+                    </Image.Source>
+                </Image>
+                <TextBlock Grid.Row="1" Text="bold" Margin="10" HorizontalAlignment="Center" />
+            </Grid>
+            
             <Grid Grid.Column="4">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -108,12 +108,12 @@
                     <Image.Source>
                         <DrawingImage>
                             <DrawingImage.Drawing>
-                                <GeometryDrawing Geometry="{piw:IconGeometry Icon=file, IconType=thin}" Brush="Black" />
+                                <GeometryDrawing Geometry="{piw:IconGeometry Icon=file, IconType=fill}" Brush="Black" />
                             </DrawingImage.Drawing>
                         </DrawingImage>
                     </Image.Source>
                 </Image>
-                <TextBlock Grid.Row="1" Text="thin" Margin="10" HorizontalAlignment="Center" />
+                <TextBlock Grid.Row="1" Text="fill" Margin="10" HorizontalAlignment="Center" />
             </Grid>
         </Grid>
     </Grid>

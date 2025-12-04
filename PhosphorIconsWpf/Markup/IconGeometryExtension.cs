@@ -29,8 +29,5 @@ public class IconGeometryExtension : MarkupExtension
     /// <param name="serviceProvider">The service provider from the XAML context.</param>
     /// <returns>A WPF <see cref="Geometry"/> object containing the icon's vector path data.</returns>
     public override object ProvideValue(IServiceProvider serviceProvider)
-    {
-        var service = new IconService();
-        return service.CreateGeometry(Icon, IconType);
-    }
+        => IconService.CreateGeometry(Icon, IconType);
 }

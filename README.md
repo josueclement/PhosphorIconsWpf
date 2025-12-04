@@ -61,11 +61,11 @@ Each icon is available in **5 visual styles**:
 
 | Style | Description | Use Case |
 |-------|-------------|----------|
-| `bold` | Thick, prominent strokes | Emphasis, primary actions |
-| `fill` | Solid filled shapes | Active states, selections |
+| `thin` | Minimal stroke weight | Elegant, minimalist designs |
 | `light` | Thin, delicate strokes | Subtle UI, large displays |
 | `regular` | Standard stroke width | General purpose (default) |
-| `thin` | Minimal stroke weight | Elegant, minimalist designs |
+| `bold` | Thick, prominent strokes | Emphasis, primary actions |
+| `fill` | Solid filled shapes | Active states, selections |
 
 Copyright (c) 2025 Josué Clément
 

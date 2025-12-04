@@ -34,8 +34,5 @@ public class IconSourceExtension : MarkupExtension
     /// <param name="serviceProvider">The service provider from the XAML context.</param>
     /// <returns>A <see cref="DrawingImage"/> that can be used as an image source.</returns>
     public override object ProvideValue(IServiceProvider serviceProvider)
-    {
-        var service = new IconService();
-        return service.CreateDrawingImage(Icon, IconType, Brush);
-    }
+        => IconService.CreateDrawingImage(Icon, IconType, Brush);
 }

@@ -10,7 +10,7 @@
         <Copyright>Copyright © 2025 Josué Clément</Copyright>
         <PackageId>PhosphorIconsWpf</PackageId>
         <Title>Phosphor Icons for WPF - 1000+ Beautiful Vector Icons</Title>
-        <Version>1.0.1</Version>
+        <Version>1.1.0</Version>
         <Description>A comprehensive WPF library providing 1,000+ beautiful, scalable vector icons from Phosphor Icons. Features 5 visual styles (bold, fill, light, regular, thin), easy XAML integration with markup extensions, and embedded SVG resources. Perfect for building modern cross-platform applications with consistent, professional iconography.</Description>
         <PackageTags>wpf;icons;phosphor;phosphor-icons;vector;svg;xaml;ui;cross-platform;markup-extension;material-icons;fluent-icons;icon-library</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -26,6 +26,10 @@
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ZiggyCreatures.FusionCache" Version="2.4.0" />
     </ItemGroup>
 
     <ItemGroup>
