@@ -24,9 +24,9 @@ public class IconSourceExtension : MarkupExtension
     public Icon Icon { get; set; }
     
     /// <summary>
-    /// Gets or sets the visual style of the icon.
+    /// Gets or sets the visual style of the icon. Defaults to regular.
     /// </summary>
-    public IconType IconType { get; set; }
+    public IconType IconType { get; set; } = IconType.regular;
 
     /// <summary>
     /// Provides a DrawingImage containing the rendered icon.

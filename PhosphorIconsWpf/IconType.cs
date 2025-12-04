@@ -7,14 +7,9 @@ namespace PhosphorIconsWpf;
 public enum IconType
 {
     /// <summary>
-    /// Bold style with thicker strokes for enhanced visibility.
+    /// Thin style with the thinnest strokes for minimal designs.
     /// </summary>
-    bold,
-    
-    /// <summary>
-    /// Filled style with solid shapes instead of outlines.
-    /// </summary>
-    fill,
+    thin,
     
     /// <summary>
     /// Light style with thinner strokes for a delicate appearance.
@@ -27,7 +22,12 @@ public enum IconType
     regular,
     
     /// <summary>
-    /// Thin style with the thinnest strokes for minimal designs.
+    /// Bold style with thicker strokes for enhanced visibility.
     /// </summary>
-    thin
+    bold,
+    
+    /// <summary>
+    /// Filled style with solid shapes instead of outlines.
+    /// </summary>
+    fill
 }
